@@ -13,9 +13,10 @@ set -euo pipefail
 # node scripts/optimize-images.mjs [album id ...], which converts them to AVIF and WebP at the
 # sizes the page draws and points collection.json at the results.
 
-USER_AGENT="discography-demo/0.1 (local demo)"
+# Local change: a User-Agent with a contact URL, as MusicBrainz asks; COLLECTION picks the folder.
+USER_AGENT="discography-prototype/0.1 ( https://github.com/dmtrbrl/discography )"
 
-dir="public/albums"
+dir="public/${COLLECTION:-albums}"
 config="$dir/collection.json"
 if [[ ! -f $config ]]; then
   echo "No $config" >&2

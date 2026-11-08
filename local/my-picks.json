@@ -1,0 +1,36 @@
+{
+  "selected-works": { "skip": "no CD edition on MusicBrainz (release group 93eecc03-6d3e-455a-8fe4-1324477e2d4d has no official single-CD release)" },
+  "parachutes": {
+    "release": "435fc965-9121-461e-b8da-d9b505c9dc9b",
+    "bookletBack": "435fc965-9121-461e-b8da-d9b505c9dc9b/16752493529@left",
+    "bookletScans": [
+      "435fc965-9121-461e-b8da-d9b505c9dc9b/16752494481",
+      "435fc965-9121-461e-b8da-d9b505c9dc9b/16752494931",
+      "435fc965-9121-461e-b8da-d9b505c9dc9b/16752495386"
+    ]
+  },
+  "isles": { "releaseGroup": "" },
+  "a-louder-silence": { "releaseGroup": "" },
+  "what-went-down": { "releaseGroup": "" },
+  "justice-cross": { "releaseGroup": "", "release": "3627095b-5204-4cec-87ea-cc84b1ee6d31", "title": "†" },
+  "discovery": { "releaseGroup": "", "release": "d073287b-d1bd-4f11-a933-a4386f8cf701" },
+  "die": { "releaseGroup": "" },
+  "uomo-donna": { "releaseGroup": "" },
+  "californication": { "releaseGroup": "", "release": "be580d1c-181f-4ad9-9bfd-172c3960979e" },
+  "black-sands": { "releaseGroup": "", "release": "fe2e0d9e-2ae9-487e-a184-c81302a62ca0" },
+  "a-rush-of-blood-to-the-head": {
+    "releaseGroup": "",
+    "release": "2b980684-20e1-4b39-82be-7bc6a13fd8ad",
+    "bookletBack": "2b980684-20e1-4b39-82be-7bc6a13fd8ad/27117756559@left",
+    "bookletScans": [
+      "2b980684-20e1-4b39-82be-7bc6a13fd8ad/27117759799",
+      "2b980684-20e1-4b39-82be-7bc6a13fd8ad/27117762856",
+      "2b980684-20e1-4b39-82be-7bc6a13fd8ad/27117765519"
+    ]
+  },
+  "blurred": { "releaseGroup": "", "kind": "EP" },
+  "kiasmos": { "releaseGroup": "" },
+  "beauty-in-simplicity": { "releaseGroup": "" },
+  "turbe-giovanili": { "releaseGroup": "" },
+  "natura-viva": { "releaseGroup": "" }
+}

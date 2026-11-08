@@ -1,0 +1,1298 @@
+{
+  "name": "My albums",
+  "albums": [
+    {
+      "id": "parachutes",
+      "artist": "Coldplay",
+      "title": "Parachutes",
+      "year": "2000",
+      "kind": "Studio album",
+      "spotify": "6ZG5lRT77aJ3btmArcykra",
+      "musicbrainz": {
+        "releaseGroup": "1dc4c347-a1db-32aa-b14f-bc9cc507b843",
+        "release": "435fc965-9121-461e-b8da-d9b505c9dc9b",
+        "bookletBack": "435fc965-9121-461e-b8da-d9b505c9dc9b/16752493529@left"
+      },
+      "sources": {
+        "cover": "https://coverartarchive.org/release-group/1dc4c347-a1db-32aa-b14f-bc9cc507b843/front",
+        "disc": "https://coverartarchive.org/release/435fc965-9121-461e-b8da-d9b505c9dc9b/16752497427.jpg",
+        "back": "https://coverartarchive.org/release/435fc965-9121-461e-b8da-d9b505c9dc9b/16752496017.jpg",
+        "bookletBack": "https://coverartarchive.org/release/435fc965-9121-461e-b8da-d9b505c9dc9b/16752493529.jpg",
+        "booklet": "https://musicbrainz.org/release/435fc965-9121-461e-b8da-d9b505c9dc9b/cover-art"
+      },
+      "cover": "cover.avif",
+      "coverSmall": "cover-small.avif",
+      "color": "#080808",
+      "disc": "disc.avif",
+      "discSmall": "disc-small.avif",
+      "back": "back.avif",
+      "bookletBack": "booklet-back.avif",
+      "bookletScans": [
+        "booklet/02.avif",
+        "booklet/03.avif",
+        "booklet/04.avif"
+      ],
+      "bookletPageCount": 8,
+      "bookletFit": "contain",
+      "appleMusic": 1122782080,
+      "appleMusicCountry": "it",
+      "tracks": [
+        {
+          "title": "Don’t Panic",
+          "length": 137,
+          "apple": 1122782218
+        },
+        {
+          "title": "Shiver",
+          "length": 300,
+          "apple": 1122782278
+        },
+        {
+          "title": "Spies",
+          "length": 319,
+          "apple": 1122782279
+        },
+        {
+          "title": "Sparks",
+          "length": 227,
+          "apple": 1122782281
+        },
+        {
+          "title": "Yellow",
+          "length": 269,
+          "apple": 1122782283
+        },
+        {
+          "title": "Trouble",
+          "length": 271,
+          "apple": 1122782284
+        },
+        {
+          "title": "Parachutes",
+          "length": 46,
+          "apple": 1122782286
+        },
+        {
+          "title": "High Speed",
+          "length": 254,
+          "apple": 1122782288
+        },
+        {
+          "title": "We Never Change",
+          "length": 249,
+          "apple": 1122782289
+        },
+        {
+          "title": "Everything’s Not Lost / Life Is for Living",
+          "length": 435,
+          "apple": 1122782290
+        }
+      ]
+    },
+    {
+      "id": "isles",
+      "artist": "Bicep",
+      "title": "Isles",
+      "year": "2021",
+      "kind": "Studio album",
+      "spotify": "0EdtTRCl3J22AnWrNpH1w9",
+      "musicbrainz": {
+        "releaseGroup": "fa402a46-b4b1-40d6-8d3b-b051550eb687"
+      },
+      "sources": {
+        "cover": "https://coverartarchive.org/release-group/fa402a46-b4b1-40d6-8d3b-b051550eb687/front",
+        "disc": "https://coverartarchive.org/release/862c6370-28dd-42d9-b50c-a533a05dd81c/30203881794.jpg",
+        "back": "https://coverartarchive.org/release/862c6370-28dd-42d9-b50c-a533a05dd81c/28403515545.jpg"
+      },
+      "cover": "cover.avif",
+      "coverSmall": "cover-small.avif",
+      "color": "#f84838",
+      "disc": "disc.avif",
+      "discSmall": "disc-small.avif",
+      "back": "back.avif",
+      "appleMusic": 1531704818,
+      "appleMusicCountry": "it",
+      "tracks": [
+        {
+          "title": "Atlas",
+          "length": 349,
+          "apple": 1531704819
+        },
+        {
+          "title": "Cazenove",
+          "length": 263,
+          "apple": 1531704821
+        },
+        {
+          "title": "Apricots",
+          "length": 247,
+          "apple": 1531704822
+        },
+        {
+          "title": "Saku",
+          "length": 297,
+          "apple": 1531704823
+        },
+        {
+          "title": "Lido",
+          "length": 200,
+          "apple": 1531704824
+        },
+        {
+          "title": "X",
+          "length": 333,
+          "apple": 1531704825
+        },
+        {
+          "title": "Rever",
+          "length": 319,
+          "apple": 1531704826
+        },
+        {
+          "title": "Sundial",
+          "length": 276,
+          "apple": 1531704827
+        },
+        {
+          "title": "Fir",
+          "length": 323,
+          "apple": 1531704828
+        },
+        {
+          "title": "Hawk",
+          "length": 362,
+          "apple": 1531704829
+        }
+      ]
+    },
+    {
+      "id": "a-louder-silence",
+      "artist": "Leifur James",
+      "title": "A Louder Silence",
+      "year": "2018",
+      "kind": "Studio album",
+      "spotify": "2iBubkygaX6SHYMKLajvVb",
+      "musicbrainz": {
+        "releaseGroup": "e30d71a8-6373-4eaf-be16-90d6291cf844"
+      },
+      "sources": {
+        "cover": "https://coverartarchive.org/release-group/e30d71a8-6373-4eaf-be16-90d6291cf844/front"
+      },
+      "cover": "cover.avif",
+      "coverSmall": "cover-small.avif",
+      "color": "#284868",
+      "appleMusic": 1763229898,
+      "appleMusicCountry": "it",
+      "tracks": [
+        {
+          "title": "Alpine",
+          "length": 167,
+          "apple": 1763229914
+        },
+        {
+          "title": "Time",
+          "length": 322,
+          "apple": 1763230069
+        },
+        {
+          "title": "Suns of Gold",
+          "length": 263,
+          "apple": 1763230071
+        },
+        {
+          "title": "Argonaut",
+          "length": 468,
+          "apple": 1763230074
+        },
+        {
+          "title": "Mumma Don’t Tell",
+          "length": 308,
+          "apple": 1763230085
+        },
+        {
+          "title": "Uncle Blue",
+          "length": 266,
+          "apple": 1763230088
+        },
+        {
+          "title": "Night and Day",
+          "length": 386,
+          "apple": 1763230089
+        },
+        {
+          "title": "Salaninam",
+          "length": 254,
+          "apple": 1763230092
+        },
+        {
+          "title": "Red Sea",
+          "length": 292,
+          "apple": 1763230310
+        },
+        {
+          "title": "Osho",
+          "length": 317,
+          "apple": 1763230313
+        }
+      ]
+    },
+    {
+      "id": "what-went-down",
+      "artist": "Foals",
+      "title": "What Went Down",
+      "year": "2015",
+      "kind": "Studio album",
+      "spotify": "0RyCpIKlCV0kgEuzrmp73O",
+      "musicbrainz": {
+        "releaseGroup": "008b9a80-7d2a-497c-8c47-436d86f60dbc"
+      },
+      "sources": {
+        "cover": "https://coverartarchive.org/release-group/008b9a80-7d2a-497c-8c47-436d86f60dbc/front",
+        "back": "https://coverartarchive.org/release/0d4bca24-a767-46d5-b95e-908fa3b4fd79/18929786575.jpg"
+      },
+      "cover": "cover.avif",
+      "coverSmall": "cover-small.avif",
+      "color": "#98c8c8",
+      "back": "back.avif",
+      "appleMusic": 1003779288,
+      "appleMusicCountry": "it",
+      "tracks": [
+        {
+          "title": "What Went Down",
+          "length": 301,
+          "apple": 1003779290
+        },
+        {
+          "title": "Mountain at My Gates",
+          "length": 244,
+          "apple": 1003779291
+        },
+        {
+          "title": "Birch Tree",
+          "length": 261,
+          "apple": 1003779292
+        },
+        {
+          "title": "Give It All",
+          "length": 287,
+          "apple": 1003779293
+        },
+        {
+          "title": "Albatross",
+          "length": 324,
+          "apple": 1003779294
+        },
+        {
+          "title": "Snake Oil",
+          "length": 261,
+          "apple": 1003779295
+        },
+        {
+          "title": "Night Swimmers",
+          "length": 285,
+          "apple": 1003779296
+        },
+        {
+          "title": "London Thunder",
+          "length": 254,
+          "apple": 1003779297
+        },
+        {
+          "title": "Lonely Hunter",
+          "length": 277,
+          "apple": 1003779298
+        },
+        {
+          "title": "A Knife in the Ocean",
+          "length": 413,
+          "apple": 1003779299
+        }
+      ]
+    },
+    {
+      "id": "justice-cross",
+      "artist": "Justice",
+      "title": "†",
+      "year": "2007",
+      "kind": "Studio album",
+      "spotify": "4GGazqHvuKwxBjWLFaJkDL",
+      "musicbrainz": {
+        "releaseGroup": "867d4882-4e8e-3acd-8134-66f19bcca915",
+        "release": "3627095b-5204-4cec-87ea-cc84b1ee6d31"
+      },
+      "sources": {
+        "cover": "https://coverartarchive.org/release-group/867d4882-4e8e-3acd-8134-66f19bcca915/front",
+        "disc": "https://coverartarchive.org/release/3627095b-5204-4cec-87ea-cc84b1ee6d31/42812304089.jpg",
+        "back": "https://coverartarchive.org/release/3627095b-5204-4cec-87ea-cc84b1ee6d31/42812303156.jpg"
+      },
+      "cover": "cover.avif",
+      "coverSmall": "cover-small.avif",
+      "color": "#080808",
+      "disc": "disc.avif",
+      "discSmall": "disc-small.avif",
+      "back": "back.avif",
+      "appleMusic": 1656264331,
+      "appleMusicCountry": "it",
+      "tracks": [
+        {
+          "title": "Genesis",
+          "length": 235,
+          "apple": 1656264336
+        },
+        {
+          "title": "Let There Be Light",
+          "length": 296,
+          "apple": 1656264339
+        },
+        {
+          "title": "D.A.N.C.E.",
+          "length": 242,
+          "apple": 1656264797
+        },
+        {
+          "title": "Newjack",
+          "length": 217,
+          "apple": 1656264808
+        },
+        {
+          "title": "Phantom",
+          "length": 262,
+          "apple": 1656264811
+        },
+        {
+          "title": "Phantom, Pt II",
+          "length": 201,
+          "apple": 1656264814
+        },
+        {
+          "title": "Valentine",
+          "length": 176,
+          "apple": 1656264816
+        },
+        {
+          "title": "Tthhee Ppaarrttyy",
+          "length": 243
+        },
+        {
+          "title": "DVNO",
+          "length": 236,
+          "apple": 1656265053
+        },
+        {
+          "title": "Stress",
+          "length": 299,
+          "apple": 1656265135
+        },
+        {
+          "title": "Waters of Nazareth",
+          "length": 265,
+          "apple": 1656265232
+        },
+        {
+          "title": "One Minute to Midnight",
+          "length": 221,
+          "apple": 1656265239
+        }
+      ]
+    },
+    {
+      "id": "discovery",
+      "artist": "Daft Punk",
+      "title": "Discovery",
+      "year": "2001",
+      "kind": "Studio album",
+      "spotify": "2noRn2Aes5aoNVsU6iWThc",
+      "musicbrainz": {
+        "releaseGroup": "48117b90-a16e-34ca-a514-19c702df1158",
+        "release": "d073287b-d1bd-4f11-a933-a4386f8cf701"
+      },
+      "sources": {
+        "cover": "https://coverartarchive.org/release-group/48117b90-a16e-34ca-a514-19c702df1158/front",
+        "disc": "https://coverartarchive.org/release/d073287b-d1bd-4f11-a933-a4386f8cf701/1148974023.jpg",
+        "back": "https://coverartarchive.org/release/d073287b-d1bd-4f11-a933-a4386f8cf701/1148971965.jpg"
+      },
+      "cover": "cover.avif",
+      "coverSmall": "cover-small.avif",
+      "color": "#080808",
+      "disc": "disc.avif",
+      "discSmall": "disc-small.avif",
+      "back": "back.avif",
+      "appleMusic": 697194953,
+      "appleMusicCountry": "it",
+      "tracks": [
+        {
+          "title": "One More Time",
+          "length": 321,
+          "apple": 697195462
+        },
+        {
+          "title": "Aerodynamic",
+          "length": 208,
+          "apple": 697195570
+        },
+        {
+          "title": "Digital Love",
+          "length": 298,
+          "apple": 697195633
+        },
+        {
+          "title": "Harder, Better, Faster, Stronger",
+          "length": 224,
+          "apple": 697195787
+        },
+        {
+          "title": "Crescendolls",
+          "length": 212,
+          "apple": 697195813
+        },
+        {
+          "title": "Nightvision",
+          "length": 104,
+          "apple": 697195819
+        },
+        {
+          "title": "Superheroes",
+          "length": 238,
+          "apple": 697195890
+        },
+        {
+          "title": "High Life",
+          "length": 202,
+          "apple": 697195929
+        },
+        {
+          "title": "Something About Us",
+          "length": 231,
+          "apple": 697195941
+        },
+        {
+          "title": "Voyager",
+          "length": 228,
+          "apple": 697195991
+        },
+        {
+          "title": "Veridis Quo",
+          "length": 345,
+          "apple": 697196125
+        },
+        {
+          "title": "Short Circuit",
+          "length": 207,
+          "apple": 697196212
+        },
+        {
+          "title": "Face to Face",
+          "length": 240,
+          "apple": 697196420
+        },
+        {
+          "title": "Too Long",
+          "length": 600,
+          "apple": 697196490
+        }
+      ]
+    },
+    {
+      "id": "die",
+      "artist": "Iosonouncane",
+      "title": "DIE",
+      "year": "2015",
+      "kind": "Studio album",
+      "spotify": "4N8jNd7SNYXh2iUATionMg",
+      "musicbrainz": {
+        "releaseGroup": "f1ff6f18-f24f-4f84-b345-5bb1ed64b5d1"
+      },
+      "sources": {
+        "cover": "https://coverartarchive.org/release-group/f1ff6f18-f24f-4f84-b345-5bb1ed64b5d1/front"
+      },
+      "cover": "cover.avif",
+      "coverSmall": "cover-small.avif",
+      "color": "#982828",
+      "appleMusic": 1535098313,
+      "appleMusicCountry": "it",
+      "tracks": [
+        {
+          "title": "Tanca",
+          "length": 487,
+          "apple": 1535098317
+        },
+        {
+          "title": "Stormi",
+          "length": 249,
+          "apple": 1535098320
+        },
+        {
+          "title": "Buio",
+          "length": 603,
+          "apple": 1535098321
+        },
+        {
+          "title": "Carne",
+          "length": 360,
+          "apple": 1535098324
+        },
+        {
+          "title": "Paesaggio",
+          "length": 137,
+          "apple": 1535098325
+        },
+        {
+          "title": "Mandria",
+          "length": 450,
+          "apple": 1535098506
+        }
+      ]
+    },
+    {
+      "id": "uomo-donna",
+      "artist": "Andrea Laszlo De Simone",
+      "title": "Uomo Donna",
+      "year": "2017",
+      "kind": "Studio album",
+      "spotify": "24tYWl6w4vTjGfgH4Bn3ie",
+      "musicbrainz": {
+        "releaseGroup": "86e4e85f-e8b6-4c09-b354-e921462faf0f"
+      },
+      "sources": {
+        "cover": "https://coverartarchive.org/release-group/86e4e85f-e8b6-4c09-b354-e921462faf0f/front"
+      },
+      "cover": "cover.avif",
+      "coverSmall": "cover-small.avif",
+      "color": "#282828",
+      "appleMusic": 1784701208,
+      "appleMusicCountry": "it",
+      "tracks": [
+        {
+          "title": "Uomo donna",
+          "length": 292,
+          "apple": 1784701212
+        },
+        {
+          "title": "Sogno l’amore",
+          "length": 526,
+          "apple": 1784701216
+        },
+        {
+          "title": "Vieni a salvarmi",
+          "length": 442,
+          "apple": 1784701519
+        },
+        {
+          "title": "Meglio",
+          "length": 331,
+          "apple": 1784701523
+        },
+        {
+          "title": "Solo un uomo",
+          "length": 348,
+          "apple": 1784701528
+        },
+        {
+          "title": "Eterno riposo",
+          "length": 432,
+          "apple": 1784701533
+        },
+        {
+          "title": "Questo non è amore",
+          "length": 258,
+          "apple": 1784701541
+        },
+        {
+          "title": "Gli uomini hanno fame",
+          "length": 678,
+          "apple": 1784701546
+        },
+        {
+          "title": "Che cosa?",
+          "length": 304,
+          "apple": 1784701802
+        },
+        {
+          "title": "La guerra dei baci",
+          "length": 258,
+          "apple": 1784701810
+        },
+        {
+          "title": "Fiore mio",
+          "length": 234,
+          "apple": 1784701814
+        },
+        {
+          "title": "Sparite tutti",
+          "length": 563,
+          "apple": 1784701862
+        }
+      ]
+    },
+    {
+      "id": "californication",
+      "artist": "Red Hot Chili Peppers",
+      "title": "Californication",
+      "year": "1999",
+      "kind": "Studio album",
+      "spotify": "2Y9IRtehByVkegoD7TcLfi",
+      "musicbrainz": {
+        "releaseGroup": "ca5dfcc3-83fb-3eee-9061-c27296b77b2c",
+        "release": "be580d1c-181f-4ad9-9bfd-172c3960979e"
+      },
+      "sources": {
+        "cover": "https://coverartarchive.org/release-group/ca5dfcc3-83fb-3eee-9061-c27296b77b2c/front",
+        "disc": "https://coverartarchive.org/release/be580d1c-181f-4ad9-9bfd-172c3960979e/24795507658.jpg",
+        "back": "https://coverartarchive.org/release/be580d1c-181f-4ad9-9bfd-172c3960979e/32072862703.jpg"
+      },
+      "cover": "cover.avif",
+      "coverSmall": "cover-small.avif",
+      "color": "#0888c8",
+      "disc": "disc.avif",
+      "discSmall": "disc-small.avif",
+      "back": "back.avif",
+      "appleMusic": 945575406,
+      "appleMusicCountry": "it",
+      "tracks": [
+        {
+          "title": "Around the World",
+          "length": 239,
+          "apple": 945575407
+        },
+        {
+          "title": "Parallel Universe",
+          "length": 271,
+          "apple": 945575408
+        },
+        {
+          "title": "Scar Tissue",
+          "length": 217,
+          "apple": 945575409
+        },
+        {
+          "title": "Otherside",
+          "length": 256,
+          "apple": 945575411
+        },
+        {
+          "title": "Get on Top",
+          "length": 198,
+          "apple": 945575412
+        },
+        {
+          "title": "Californication",
+          "length": 322,
+          "apple": 945575413
+        },
+        {
+          "title": "Easily",
+          "length": 231,
+          "apple": 945575414
+        },
+        {
+          "title": "Porcelain",
+          "length": 164,
+          "apple": 945575415
+        },
+        {
+          "title": "Emit Remmus",
+          "length": 240,
+          "apple": 945575416
+        },
+        {
+          "title": "I Like Dirt",
+          "length": 158,
+          "apple": 945575417
+        },
+        {
+          "title": "This Velvet Glove",
+          "length": 225,
+          "apple": 945575418
+        },
+        {
+          "title": "Savior",
+          "length": 292,
+          "apple": 945575419
+        },
+        {
+          "title": "Purple Stain",
+          "length": 253,
+          "apple": 945575420
+        },
+        {
+          "title": "Right on Time",
+          "length": 113,
+          "apple": 945575421
+        },
+        {
+          "title": "Road Trippin’",
+          "length": 206,
+          "apple": 945575422
+        }
+      ]
+    },
+    {
+      "id": "black-sands",
+      "artist": "Bonobo",
+      "title": "Black Sands",
+      "year": "2010",
+      "kind": "Studio album",
+      "spotify": "5m1RkwKeU7MV0Ni6PH2lPy",
+      "musicbrainz": {
+        "releaseGroup": "f382cd44-9195-46ce-9362-dadbe16cefe9",
+        "release": "fe2e0d9e-2ae9-487e-a184-c81302a62ca0"
+      },
+      "sources": {
+        "cover": "https://coverartarchive.org/release-group/f382cd44-9195-46ce-9362-dadbe16cefe9/front",
+        "disc": "https://coverartarchive.org/release/fe2e0d9e-2ae9-487e-a184-c81302a62ca0/45839134204.jpg",
+        "back": "https://coverartarchive.org/release/fe2e0d9e-2ae9-487e-a184-c81302a62ca0/45839131337.jpg"
+      },
+      "cover": "cover.avif",
+      "coverSmall": "cover-small.avif",
+      "color": "#081818",
+      "disc": "disc.avif",
+      "discSmall": "disc-small.avif",
+      "back": "back.avif",
+      "appleMusic": 416292276,
+      "appleMusicCountry": "it",
+      "tracks": [
+        {
+          "title": "Prelude",
+          "length": 78,
+          "apple": 416292277
+        },
+        {
+          "title": "Kiara",
+          "length": 230,
+          "apple": 416292278
+        },
+        {
+          "title": "Kong",
+          "length": 238,
+          "apple": 416292279
+        },
+        {
+          "title": "Eyesdown",
+          "length": 326,
+          "apple": 416292280
+        },
+        {
+          "title": "El Toro",
+          "length": 224,
+          "apple": 416292281
+        },
+        {
+          "title": "We Could Forever",
+          "length": 260,
+          "apple": 416292282
+        },
+        {
+          "title": "1009",
+          "length": 270,
+          "apple": 416292283
+        },
+        {
+          "title": "All in Forms",
+          "length": 292,
+          "apple": 416292284
+        },
+        {
+          "title": "The Keeper",
+          "length": 289,
+          "apple": 416292285
+        },
+        {
+          "title": "Stay the Same",
+          "length": 285,
+          "apple": 416292286
+        },
+        {
+          "title": "Animals",
+          "length": 405,
+          "apple": 416292288
+        },
+        {
+          "title": "Black Sands",
+          "length": 409,
+          "apple": 416292289
+        }
+      ]
+    },
+    {
+      "id": "a-rush-of-blood-to-the-head",
+      "artist": "Coldplay",
+      "title": "A Rush of Blood to the Head",
+      "year": "2002",
+      "kind": "Studio album",
+      "spotify": "0RHX9XECH8IVI3LNgWDpmQ",
+      "musicbrainz": {
+        "releaseGroup": "120c786d-a3b2-3c19-b4ff-2b7b3b4435bf",
+        "release": "2b980684-20e1-4b39-82be-7bc6a13fd8ad",
+        "bookletBack": "2b980684-20e1-4b39-82be-7bc6a13fd8ad/27117756559@left"
+      },
+      "sources": {
+        "cover": "https://coverartarchive.org/release-group/120c786d-a3b2-3c19-b4ff-2b7b3b4435bf/front",
+        "disc": "https://coverartarchive.org/release/2b980684-20e1-4b39-82be-7bc6a13fd8ad/27117768355.jpg",
+        "back": "https://coverartarchive.org/release/2b980684-20e1-4b39-82be-7bc6a13fd8ad/27117775038.jpg",
+        "bookletBack": "https://coverartarchive.org/release/2b980684-20e1-4b39-82be-7bc6a13fd8ad/27117756559.jpg",
+        "booklet": "https://musicbrainz.org/release/2b980684-20e1-4b39-82be-7bc6a13fd8ad/cover-art"
+      },
+      "cover": "cover.avif",
+      "coverSmall": "cover-small.avif",
+      "color": "#f8f8f8",
+      "disc": "disc.avif",
+      "discSmall": "disc-small.avif",
+      "back": "back.avif",
+      "bookletBack": "booklet-back.avif",
+      "bookletScans": [
+        "booklet/02.avif",
+        "booklet/03.avif",
+        "booklet/04.avif"
+      ],
+      "bookletPageCount": 8,
+      "bookletFit": "contain",
+      "appleMusic": 1122775993,
+      "appleMusicCountry": "it",
+      "tracks": [
+        {
+          "title": "Politik",
+          "length": 319,
+          "apple": 1122776152
+        },
+        {
+          "title": "In My Place",
+          "length": 229,
+          "apple": 1122776153
+        },
+        {
+          "title": "God Put a Smile Upon Your Face",
+          "length": 297,
+          "apple": 1122776154
+        },
+        {
+          "title": "The Scientist",
+          "length": 309,
+          "apple": 1122776155
+        },
+        {
+          "title": "Clocks",
+          "length": 307,
+          "apple": 1122776156
+        },
+        {
+          "title": "Daylight",
+          "length": 328,
+          "apple": 1122776157
+        },
+        {
+          "title": "Green Eyes",
+          "length": 223,
+          "apple": 1122776158
+        },
+        {
+          "title": "Warning Sign",
+          "length": 331,
+          "apple": 1122776159
+        },
+        {
+          "title": "A Whisper",
+          "length": 238,
+          "apple": 1122776160
+        },
+        {
+          "title": "A Rush of Blood to the Head",
+          "length": 351,
+          "apple": 1122776161
+        },
+        {
+          "title": "Amsterdam",
+          "length": 319,
+          "apple": 1122776162
+        }
+      ]
+    },
+    {
+      "id": "blurred",
+      "artist": "Kiasmos",
+      "title": "Blurred",
+      "year": "2017",
+      "kind": "EP",
+      "spotify": "6buz46xNMKBZ5xItTu5rDK",
+      "musicbrainz": {
+        "releaseGroup": "602ae1de-ce8c-4f87-8c34-b47a197a8366"
+      },
+      "sources": {
+        "cover": "https://coverartarchive.org/release-group/602ae1de-ce8c-4f87-8c34-b47a197a8366/front"
+      },
+      "cover": "cover.avif",
+      "coverSmall": "cover-small.avif",
+      "color": "#e8e8e8",
+      "appleMusic": 1451158478,
+      "appleMusicCountry": "it",
+      "tracks": [
+        {
+          "title": "Shed",
+          "length": 334,
+          "apple": 1451158495
+        },
+        {
+          "title": "Blurred",
+          "length": 305,
+          "apple": 1451158751
+        },
+        {
+          "title": "Jarred",
+          "length": 335,
+          "apple": 1451158761
+        },
+        {
+          "title": "Paused",
+          "length": 327,
+          "apple": 1451158827
+        },
+        {
+          "title": "Drawn",
+          "length": 260
+        },
+        {
+          "title": "Gaunt",
+          "length": 312
+        },
+        {
+          "title": "Swept",
+          "length": 332
+        },
+        {
+          "title": "Swept (Tale of Us remix)",
+          "length": 424
+        },
+        {
+          "title": "Blurred (Bonobo remix)",
+          "length": 361,
+          "apple": 1451158830
+        },
+        {
+          "title": "Paused (Stimming remix)",
+          "length": 431,
+          "apple": 1451158836
+        }
+      ]
+    },
+    {
+      "id": "kiasmos",
+      "artist": "Kiasmos",
+      "title": "Kiasmos",
+      "year": "2014",
+      "kind": "Studio album",
+      "spotify": "7pBDu7nc2KaMsh0SfZMc2d",
+      "musicbrainz": {
+        "releaseGroup": "8f3d55a7-efea-419b-add8-2a5469c2e014"
+      },
+      "sources": {
+        "cover": "https://coverartarchive.org/release-group/8f3d55a7-efea-419b-add8-2a5469c2e014/front",
+        "disc": "https://coverartarchive.org/release/73e4a3e9-bb1d-4243-9c1b-f285fc842248/22036364923.jpg",
+        "back": "https://coverartarchive.org/release/73e4a3e9-bb1d-4243-9c1b-f285fc842248/22036364523.jpg"
+      },
+      "cover": "cover.avif",
+      "coverSmall": "cover-small.avif",
+      "color": "#283848",
+      "disc": "disc.avif",
+      "discSmall": "disc-small.avif",
+      "back": "back.avif",
+      "appleMusic": 1451077320,
+      "appleMusicCountry": "it",
+      "tracks": [
+        {
+          "title": "Lit",
+          "length": 384,
+          "apple": 1451077326
+        },
+        {
+          "title": "Held",
+          "length": 301,
+          "apple": 1451077337
+        },
+        {
+          "title": "Looped",
+          "length": 360,
+          "apple": 1451077338
+        },
+        {
+          "title": "Swayed",
+          "length": 263,
+          "apple": 1451077345
+        },
+        {
+          "title": "Thrown",
+          "length": 539,
+          "apple": 1451077686
+        },
+        {
+          "title": "Dragged",
+          "length": 300,
+          "apple": 1451077698
+        },
+        {
+          "title": "Bent",
+          "length": 345,
+          "apple": 1451077699
+        },
+        {
+          "title": "Burnt",
+          "length": 560,
+          "apple": 1451077827
+        }
+      ]
+    },
+    {
+      "id": "beauty-in-simplicity",
+      "artist": "Kai Schumacher",
+      "title": "Beauty In Simplicity",
+      "year": "2017",
+      "kind": "Studio album",
+      "spotify": "4P7bKeeb4bRKS8FgE0PjVw",
+      "musicbrainz": {
+        "releaseGroup": "f74dbe93-f03e-4e58-847b-fddc74fe0d13"
+      },
+      "sources": {
+        "cover": "https://coverartarchive.org/release-group/f74dbe93-f03e-4e58-847b-fddc74fe0d13/front"
+      },
+      "cover": "cover.avif",
+      "coverSmall": "cover-small.avif",
+      "color": "#c8c8c8",
+      "appleMusic": 1270112813,
+      "appleMusicCountry": "it",
+      "tracks": [
+        {
+          "title": "A New Error",
+          "length": 410,
+          "apple": 1270112822
+        },
+        {
+          "title": "Struggle For Pleasure",
+          "length": 326,
+          "apple": 1270112827
+        },
+        {
+          "title": "Electric Counterpoint (1st Movement)",
+          "length": 412,
+          "apple": 1270112828
+        },
+        {
+          "title": "Electric Counterpoint (2nd Movement)",
+          "length": 202,
+          "apple": 1270112829
+        },
+        {
+          "title": "Electric Counterpoint (3rd Movement)",
+          "length": 272,
+          "apple": 1270112830
+        },
+        {
+          "title": "Music For Airports 1/2",
+          "length": 621,
+          "apple": 1270113646
+        },
+        {
+          "title": "Gnossienne No. 3",
+          "length": 194,
+          "apple": 1270113647
+        },
+        {
+          "title": "The Hug",
+          "length": 429,
+          "apple": 1270113731
+        },
+        {
+          "title": "Let It Play (Part 1)",
+          "length": 435,
+          "apple": 1270113739
+        },
+        {
+          "title": "Let It Play (Part 2)",
+          "length": 328,
+          "apple": 1270113743
+        },
+        {
+          "title": "The Fool",
+          "length": 237,
+          "apple": 1270113744
+        }
+      ]
+    },
+    {
+      "id": "turbe-giovanili",
+      "artist": "Fabri Fibra",
+      "title": "Turbe Giovanili",
+      "year": "2002",
+      "kind": "Studio album",
+      "spotify": "7tM5mMXoAWguRCF2tIxnPQ",
+      "musicbrainz": {
+        "releaseGroup": "362bdb92-62fb-31bc-bacb-907ba6d38435"
+      },
+      "sources": {
+        "cover": "https://music.apple.com/it/album/1440767333",
+        "back": "https://coverartarchive.org/release/939af005-0a97-4cd5-b3de-d9e2b3fad64f/24645608790.jpg"
+      },
+      "cover": "cover.avif",
+      "coverSmall": "cover-small.avif",
+      "color": "#080808",
+      "back": "back.avif",
+      "appleMusic": 1440767333,
+      "appleMusicCountry": "it",
+      "tracks": [
+        {
+          "title": "Scattano le indagini",
+          "length": 234,
+          "apple": 1440767336
+        },
+        {
+          "title": "Luna piena",
+          "length": 236,
+          "apple": 1440767338
+        },
+        {
+          "title": "Dalla A alla zeta",
+          "length": 168,
+          "apple": 1440767339
+        },
+        {
+          "title": "Dove fuggi?",
+          "length": 210,
+          "apple": 1440767340
+        },
+        {
+          "title": "Di fretta",
+          "length": 222,
+          "apple": 1440767342
+        },
+        {
+          "title": "Fuori norma",
+          "length": 246,
+          "apple": 1440767344
+        },
+        {
+          "title": "Ci penso dopo",
+          "length": 125,
+          "apple": 1440767345
+        },
+        {
+          "title": "Mi stai sul cazzo",
+          "length": 161,
+          "apple": 1440767347
+        },
+        {
+          "title": "Per averti qui",
+          "length": 283,
+          "apple": 1440767591
+        },
+        {
+          "title": "Come te",
+          "length": 370,
+          "apple": 1440767598
+        },
+        {
+          "title": "Chi c’è",
+          "length": 163,
+          "apple": 1440767599
+        },
+        {
+          "title": "Se non dai il meglio / Non io",
+          "length": 270,
+          "apple": 1440767603
+        },
+        {
+          "title": "In quanti?",
+          "length": 195,
+          "apple": 1440767604
+        },
+        {
+          "title": "Nuovi stili d’insonnia",
+          "length": 255,
+          "apple": 1440767605
+        },
+        {
+          "title": "Personaggi di passaggio",
+          "length": 196,
+          "apple": 1440767606
+        },
+        {
+          "title": "Di noi",
+          "length": 270,
+          "apple": 1440767608
+        },
+        {
+          "title": "Ma che persona",
+          "length": 169,
+          "apple": 1440767610
+        }
+      ]
+    },
+    {
+      "id": "natura-viva",
+      "artist": "Eugenio in Via Di Gioia",
+      "title": "Natura Viva",
+      "year": "2019",
+      "kind": "Studio album",
+      "spotify": "1Y0HxgNM9X6RiMEA2d3dzG",
+      "musicbrainz": {
+        "releaseGroup": "f0ee0798-86c0-4099-a235-1155a43acd94"
+      },
+      "sources": {
+        "cover": "https://music.apple.com/it/album/1451706476"
+      },
+      "cover": "cover.avif",
+      "coverSmall": "cover-small.avif",
+      "color": "#f8f8f8",
+      "appleMusic": 1451706476,
+      "appleMusicCountry": "it",
+      "tracks": [
+        {
+          "title": "Lettera al prossimo",
+          "length": 197,
+          "apple": 1451706479
+        },
+        {
+          "title": "Inizia a respirare",
+          "length": 194,
+          "apple": 1451706484
+        },
+        {
+          "title": "Altrove",
+          "length": 189,
+          "apple": 1451706486
+        },
+        {
+          "title": "Albero",
+          "length": 191,
+          "apple": 1451706494
+        },
+        {
+          "title": "Cerchi",
+          "length": 230,
+          "apple": 1451706495
+        },
+        {
+          "title": "Pace all'anima",
+          "length": 190,
+          "apple": 1451706501
+        },
+        {
+          "title": "Camera mia",
+          "length": 200,
+          "apple": 1451706505
+        },
+        {
+          "title": "Il tuo amico il tuo nemico tu",
+          "length": 221,
+          "apple": 1451706688
+        },
+        {
+          "title": "Il fine e la luna",
+          "length": 179,
+          "apple": 1451706690
+        },
+        {
+          "title": "La misura delle cose",
+          "length": 235,
+          "apple": 1451706691
+        }
+      ]
+    }
+  ]
+}

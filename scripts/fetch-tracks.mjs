@@ -11,34 +11,28 @@
 // Usage: node scripts/fetch-tracks.mjs [album id ...]   (no ids: every album)
 
 import { readFile, writeFile } from 'node:fs/promises';
+// Local change: requests go through local/cached-fetch.mjs (a User-Agent with a contact URL, one
+// request at a time, 1.1 s for MusicBrainz and 3.2 s for iTunes, backoff, every response cached
+// under cache/). COLLECTION picks the folder under public/, APPLE_COUNTRY the storefront.
+import { getJson } from '../local/cached-fetch.mjs';
 
-const USER_AGENT = 'discography-demo/0.1 (local demo)';
-// MusicBrainz allows about one request a second; the iTunes API about 20 a minute.
-const PAUSE = { musicbrainz: 1100, itunes: 3200 };
-const COUNTRY = 'us';
+const COUNTRY = process.env.APPLE_COUNTRY || 'us';
 
 const only = process.argv.slice(2);
-const configPath = 'public/albums/collection.json';
+const configPath = `public/${process.env.COLLECTION || 'albums'}/collection.json`;
 const config = JSON.parse(await readFile(configPath, 'utf8'));
 
-const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
-const last = { musicbrainz: 0, itunes: 0 };
+// The service argument is kept for the call sites; the pause is chosen from the URL's host.
+async function get(_service, url) {
+  const body = await getJson(url);
+  if (body === null) throw new Error(`404 for ${url}`);
+  return body;
+}
 
-// Waits out the service's rate limit, then fetches JSON, retrying on 503 and network errors.
-async function get(service, url) {
-  for (let attempt = 0; attempt < 5; attempt++) {
-    await sleep(Math.max(0, last[service] + PAUSE[service] - Date.now()));
-    last[service] = Date.now();
-    try {
-      const response = await fetch(url, { headers: { 'User-Agent': USER_AGENT } });
-      if (response.ok) return await response.json();
-      if (response.status !== 503 && response.status !== 429) throw new Error(`${response.status} for ${url}`);
-    } catch (error) {
-      if (attempt === 4) throw error;
-    }
-    await sleep(5000 * (attempt + 1));
-  }
-  throw new Error(`Gave up on ${url}`);
+// Local change: when MusicBrainz has no Apple link for the artist, look the name up on iTunes.
+async function appleArtistByName(name) {
+  const { results } = await get('itunes', `https://itunes.apple.com/search?term=${encodeURIComponent(name)}&entity=musicArtist&limit=10&country=${COUNTRY}`);
+  return results.find((result) => simple(result.artistName) === simple(name))?.artistId;
 }
 
 // Lower case, accents and punctuation removed, so "Their Law: The Singles 1990–2005" and "Their
@@ -117,18 +111,24 @@ for (const album of config.albums) {
 
   let catalog = artistAlbums.get(artist);
   if (!catalog) {
-    const appleId = config.appleArtist ?? (artist && await appleArtist(artist));
-    if (!appleId) throw new Error('No Apple artist ID on MusicBrainz; set "appleArtist" in collection.json');
-    const { results } = await get('itunes', `https://itunes.apple.com/lookup?id=${appleId}&entity=album&limit=200&country=${COUNTRY}`);
-    catalog = results.filter((result) => result.wrapperType === 'collection');
+    // Local change: a per-album appleArtist, and a name search before giving up (no throw).
+    const appleId = album.appleArtist ?? config.appleArtist ?? (artist && await appleArtist(artist)) ?? await appleArtistByName(album.artist);
+    if (appleId) {
+      const { results } = await get('itunes', `https://itunes.apple.com/lookup?id=${appleId}&entity=album&limit=200&country=${COUNTRY}`);
+      catalog = results.filter((result) => result.wrapperType === 'collection');
+    } else {
+      console.log('  no Apple artist ID on MusicBrainz or iTunes');
+      catalog = [];
+    }
     artistAlbums.set(artist, catalog);
   }
 
   // Same name first, then the name without edition notes; closest track count first, explicit
-  // before clean, and at most four tried.
-  let candidates = catalog.filter((result) => simple(result.collectionName) === simple(album.title));
-  if (!candidates.length) candidates = catalog.filter((result) => bare(result.collectionName) === bare(album.title));
-  if (!candidates.length) candidates = catalog.filter((result) => bare(result.collectionName).startsWith(bare(album.title)));
+  // before clean, and at most four tried. Local change: album.appleTitle overrides the name.
+  const appleTitle = album.appleTitle ?? album.title;
+  let candidates = catalog.filter((result) => simple(result.collectionName) === simple(appleTitle));
+  if (!candidates.length) candidates = catalog.filter((result) => bare(result.collectionName) === bare(appleTitle));
+  if (!candidates.length) candidates = catalog.filter((result) => bare(result.collectionName).startsWith(bare(appleTitle)));
   candidates = candidates
     .filter((result) => result.trackCount >= tracks.length * 0.6)
     .sort((a, b) => Math.abs(a.trackCount - tracks.length) - Math.abs(b.trackCount - tracks.length)

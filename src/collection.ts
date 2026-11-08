@@ -91,7 +91,10 @@ export interface Collection extends Omit<CollectionConfig, 'theme' | 'albums'> {
 
 const defaultTheme: Theme = { background: '#ebe3d4', backgroundCenter: '#f6f0e5', backgroundEdge: '#e1d7c5', ink: '#252521' };
 
-const albumsUrl = (path: string) => new URL(`${import.meta.env.BASE_URL}albums/${path}`, window.location.href);
+// Local change: the collection's folder under public/ comes from VITE_COLLECTION (`--mode mine`
+// reads .env.mine and loads public/my-albums/); the default stays public/albums/.
+const collectionFolder: string = import.meta.env.VITE_COLLECTION || 'albums';
+const albumsUrl = (path: string) => new URL(`${import.meta.env.BASE_URL}${collectionFolder}/${path}`, window.location.href);
 
 // The artwork is stored as AVIF, with a WebP twin beside each file (scripts/optimize-images.mjs):
 // a third smaller again, and widely decoded since 2023. Whether this browser decodes it, from a

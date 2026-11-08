@@ -8,7 +8,10 @@
     "dev": "vite --host 127.0.0.1",
     "typecheck": "tsc",
     "build": "tsc && vite build",
-    "preview": "vite preview --host 127.0.0.1"
+    "preview": "vite preview --host 127.0.0.1",
+    "dev:mine": "vite --host 127.0.0.1 --mode mine",
+    "build:mine": "tsc && vite build --mode mine",
+    "preview:mine": "vite preview --host 127.0.0.1 --mode mine"
   },
   "dependencies": {
     "@solidjs/router": "^1.0.0",

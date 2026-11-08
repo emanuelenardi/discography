@@ -17,7 +17,8 @@ import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const only = process.argv.slice(2);
-const dir = path.join(root, 'public', 'albums');
+// Local change: COLLECTION picks the collection's folder under public/ (default albums).
+const dir = path.join(root, 'public', process.env.COLLECTION || 'albums');
 const jsonPath = path.join(dir, 'collection.json');
 const config = JSON.parse(await readFile(jsonPath, 'utf8'));
 

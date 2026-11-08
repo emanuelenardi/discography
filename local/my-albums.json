@@ -1,0 +1,19 @@
+[
+  { "id": "selected-works", "title": "Selected Works", "artist": "Tom Day", "spotify": "0mm74TjzY1vTLlQP2I01ue", "releaseDate": "2019-02-21" },
+  { "id": "parachutes", "title": "Parachutes", "artist": "Coldplay", "spotify": "6ZG5lRT77aJ3btmArcykra", "releaseDate": "2000-07-10" },
+  { "id": "isles", "title": "Isles", "artist": "Bicep", "spotify": "0EdtTRCl3J22AnWrNpH1w9", "releaseDate": "2021-01-22" },
+  { "id": "a-louder-silence", "title": "A Louder Silence", "artist": "Leifur James", "spotify": "2iBubkygaX6SHYMKLajvVb", "releaseDate": "2018-10-05" },
+  { "id": "what-went-down", "title": "What Went Down", "artist": "Foals", "spotify": "0RyCpIKlCV0kgEuzrmp73O", "releaseDate": "2015-08-28" },
+  { "id": "justice-cross", "title": "Justice", "artist": "Justice", "spotify": "4GGazqHvuKwxBjWLFaJkDL", "releaseDate": "2007-06-11", "searchQuery": "(releasegroup:Cross OR alias:Cross) AND artist:\"Justice\" AND primarytype:album" },
+  { "id": "discovery", "title": "Discovery", "artist": "Daft Punk", "spotify": "2noRn2Aes5aoNVsU6iWThc", "releaseDate": "2001-03-12" },
+  { "id": "die", "title": "DIE", "artist": "Iosonouncane", "spotify": "4N8jNd7SNYXh2iUATionMg", "releaseDate": "2015-03-30" },
+  { "id": "uomo-donna", "title": "Uomo Donna", "artist": "Andrea Laszlo De Simone", "spotify": "24tYWl6w4vTjGfgH4Bn3ie", "releaseDate": "2017-06-09" },
+  { "id": "californication", "title": "Californication", "spotifyTitle": "Californication (Deluxe Edition)", "artist": "Red Hot Chili Peppers", "spotify": "2Y9IRtehByVkegoD7TcLfi", "releaseDate": "1999-06-08" },
+  { "id": "black-sands", "title": "Black Sands", "artist": "Bonobo", "spotify": "5m1RkwKeU7MV0Ni6PH2lPy", "releaseDate": "2010-03-29" },
+  { "id": "a-rush-of-blood-to-the-head", "title": "A Rush of Blood to the Head", "artist": "Coldplay", "spotify": "0RHX9XECH8IVI3LNgWDpmQ", "releaseDate": "2002-08-27" },
+  { "id": "blurred", "title": "Blurred", "artist": "Kiasmos", "spotify": "6buz46xNMKBZ5xItTu5rDK", "releaseDate": "2017-10-06", "searchQuery": "releasegroup:\"Blurred EP\" AND artist:\"Kiasmos\"" },
+  { "id": "kiasmos", "title": "Kiasmos", "artist": "Kiasmos", "spotify": "7pBDu7nc2KaMsh0SfZMc2d", "releaseDate": "2014-10-27" },
+  { "id": "beauty-in-simplicity", "title": "Beauty In Simplicity", "artist": "Kai Schumacher", "spotify": "4P7bKeeb4bRKS8FgE0PjVw", "releaseDate": "2017-09-01" },
+  { "id": "turbe-giovanili", "title": "Turbe Giovanili", "artist": "Fabri Fibra", "spotify": "7tM5mMXoAWguRCF2tIxnPQ", "releaseDate": "2002-01-01" },
+  { "id": "natura-viva", "title": "Natura Viva", "artist": "Eugenio in Via Di Gioia", "spotify": "1Y0HxgNM9X6RiMEA2d3dzG", "releaseDate": "2019-03-01" }
+]

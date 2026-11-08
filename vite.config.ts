@@ -1,5 +1,5 @@
 import { readFileSync } from 'node:fs';
-import { defineConfig } from 'vite';
+import { defineConfig, loadEnv } from 'vite';
 import type { Plugin } from 'vite';
 import solid from 'vite-plugin-solid';
 
@@ -13,13 +13,14 @@ import solid from 'vite-plugin-solid';
 // names the format, so a browser without AVIF skips them and loads the .webp twins collection.ts
 // points it at instead. The strip light's lookup tables, a chunk the script imports once it runs, are
 // preloaded too, so they come with the script rather than after it.
-function preloadArtwork(): Plugin {
+// Local change: `folder` is the collection's folder under public/ (VITE_COLLECTION, default albums).
+function preloadArtwork(folder: string): Plugin {
   return {
     name: 'preload-artwork',
     transformIndexHtml: {
       order: 'post',
-      handler(_html, { bundle }) {
-        const config = JSON.parse(readFileSync('public/albums/collection.json', 'utf8')) as { albums: Record<string, string | undefined>[] };
+      handler(html, { bundle }) {
+        const config = JSON.parse(readFileSync(`public/${folder}/collection.json`, 'utf8')) as { albums: Record<string, string | undefined>[] };
         // Phones (650 px and narrower; scene.ts, narrowWidth) load the small copies of the discs and
         // covers first and the full size once the row is up, so each is preloaded for its screens;
         // on phones only the first album's, though: sharing a slow connection with twenty images,
@@ -33,15 +34,17 @@ function preloadArtwork(): Plugin {
           const screens = media(album, kind);
           // Paths are relative to the album's folder; the href relative to the page, as the build's
           // other URLs are (base './').
-          const href = `.${new URL(path, `file:///albums/${album.id}/`).pathname}`;
+          const href = `.${new URL(path, `file:///${folder}/${album.id}/`).pathname}`;
           return [{ tag: 'link', attrs: { rel: 'preload', as: 'image', href, type: `image/${href.split('.').pop()}`, ...(screens ? { media: screens } : {}) }, injectTo: 'head' as const }];
         }));
         const tables = Object.keys(bundle ?? {}).find((file) => /RectAreaLightUniformsLib/.test(file));
-        return [
+        const tags = [
           ...(tables ? [{ tag: 'link', attrs: { rel: 'modulepreload', href: `./${tables}`, crossorigin: true }, injectTo: 'head' as const }] : []),
           ...links(['discSmall', 'coverSmall'], config.albums.slice(0, 1)),
           ...links(['disc', 'cover']),
         ];
+        // index.html preloads the default collection.json; point it at the chosen one.
+        return { html: html.replace('/albums/collection.json', `/${folder}/collection.json`), tags };
       },
     },
   };
@@ -49,9 +52,9 @@ function preloadArtwork(): Plugin {
 
 // Relative asset URLs, so the build works from any folder, such as a GitHub Pages project site.
 // The page itself is the only URL: views live in the hash.
-export default defineConfig({
+export default defineConfig(({ mode }) => ({
   base: './',
-  plugins: [solid(), preloadArtwork()],
+  plugins: [solid(), preloadArtwork(loadEnv(mode, process.cwd()).VITE_COLLECTION || 'albums')],
   build: {
     // Every browser with WebGL2 runs this; no lowering to older syntax.
     target: 'es2022',
@@ -60,4 +63,4 @@ export default defineConfig({
     // (RectAreaLightUniformsLib) are the one chunk loaded on the side (scene.ts).
     chunkSizeWarningLimit: 900,
   },
-});
+}));
